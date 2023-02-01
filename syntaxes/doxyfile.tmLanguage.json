@@ -1,0 +1,69 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Doxyfile",
+	"scopeName": "source.doxyfile",
+	"patterns": [
+		{
+			"begin": "(^[ \\t]+)?(?=#)",
+			"beginCaptures": {
+				"1": {
+					"name": "punctuation.whitespace.comment.leading.doxyfile"
+				}
+			},
+			"end": "(?!\\G)",
+			"patterns": [
+				{
+					"begin": "#",
+					"beginCaptures": {
+						"0": {
+							"name": "punctuation.definition.comment.doxyfile"
+						}
+					},
+					"end": "\\n",
+					"name": "comment.line.number-sign.doxyfile"
+				}
+			]
+		},
+		{
+			"captures": {
+				"1": {
+					"name": "keyword.other.definition.doxyfile"
+				},
+				"2": {
+					"name": "punctuation.separator.key-value.doxyfile"
+				}
+			},
+			"match": "\\b([a-zA-Z0-9_.-]+)\\b\\s*(=)"
+		},
+		{
+			"begin": "'",
+			"beginCaptures": {
+				"0": {
+					"name": "punctuation.definition.string.begin.doxyfile"
+				}
+			},
+			"end": "'",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.definition.string.end.doxyfile"
+				}
+			},
+			"name": "string.quoted.single.doxyfile"
+		},
+		{
+			"begin": "\"",
+			"beginCaptures": {
+				"0": {
+					"name": "punctuation.definition.string.begin.doxyfile"
+				}
+			},
+			"end": "\"",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.definition.string.end.doxyfile"
+				}
+			},
+			"name": "string.quoted.double.doxyfile"
+		}
+	]
+}
