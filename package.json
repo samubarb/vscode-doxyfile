@@ -2,6 +2,7 @@
     "name": "vscode-doxyfile",
     "displayName": "vscode-doxyfile",
     "description": "Doxyfile language support",
+    "icon": "images/icon.png",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.74.0"
