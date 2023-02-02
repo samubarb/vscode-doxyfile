@@ -1,9 +1,14 @@
 {
     "name": "vscode-doxyfile",
-    "displayName": "vscode-doxyfile",
+    "displayName": "Doxyfile",
     "description": "Doxyfile language support",
-    "icon": "images/icon.png",
+    "icon": "resources/doxygen_icon.png",
     "version": "0.0.1",
+    "publisher": "samubarb",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/samubarb/vscode-doxyfile"
+    },
     "engines": {
         "vscode": "^1.74.0"
     },
@@ -21,7 +26,11 @@
                 "extensions": [
                     "Doxyfile"
                 ],
-                "configuration": "./language-configuration.json"
+                "configuration": "./language-configuration.json",
+                "icon": {
+                    "light": "./resources/doxygen_icon_light.svg",
+                    "dark": "./resources/doxygen_icon_dark.svg"
+                }
             }
         ],
         "grammars": [
