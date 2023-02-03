@@ -47,5 +47,6 @@
                 "path": "./syntaxes/doxyfile.tmLanguage.json"
             }
         ]
-    }
+    },
+    "main": "./out/extension"
 }
