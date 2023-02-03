@@ -48,5 +48,5 @@
             }
         ]
     },
-    "main": "./out/extension"
+    "main": "main"
 }
