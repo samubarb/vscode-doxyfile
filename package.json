@@ -3,7 +3,7 @@
     "displayName": "Doxyfile",
     "description": "Doxyfile language support",
     "icon": "resources/doxygen_icon.png",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "samubarb",
     "license": "MIT",
     "repository": {
