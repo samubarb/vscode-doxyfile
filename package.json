@@ -5,12 +5,13 @@
     "icon": "resources/doxygen_icon.png",
     "version": "0.0.1",
     "publisher": "samubarb",
+    "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/samubarb/vscode-doxyfile"
+        "url": "https://github.com/samubarb/vscode-doxyfile.git"
     },
     "engines": {
-        "vscode": "^1.74.0"
+        "vscode": "*"
     },
     "categories": [
         "Programming Languages"
@@ -22,6 +23,9 @@
                 "aliases": [
                     "Doxyfile",
                     "doxyfile"
+                ],
+                "extensions": [
+                    ".Doxyfile"
                 ],
                 "filenames": [
                     "Doxyfile"
