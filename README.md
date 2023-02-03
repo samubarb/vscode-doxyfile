@@ -3,6 +3,8 @@
 The VS Code Doxyfile Extension provides syntax highlighting for your Doxyfile configuration file and an appropriate file
 icon.
 
+![VS Code Doxyfile Extension][screenshot]
+
 ## ⭐ Features
 
  - Syntax highlighting
@@ -11,3 +13,5 @@ icon.
 ## 📝 License
 
 [MIT](LICENSE)
+
+[screenshot]: resources/screenshot.png
