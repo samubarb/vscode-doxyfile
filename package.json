@@ -23,8 +23,11 @@
                     "Doxyfile",
                     "doxyfile"
                 ],
+                "filenames": [
+                    "Doxyfile"
+                ],
                 "filenamePatterns": [
-                    "*Doxyfile", "*Doxyfile.bak"
+                    "Doxyfile.*"
                 ],
                 "configuration": "./language-configuration.json",
                 "icon": {
