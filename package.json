@@ -16,6 +16,10 @@
     "categories": [
         "Programming Languages"
     ],
+    "keywords": [
+        "doxygen",
+        "doxyfile"
+    ],
     "contributes": {
         "languages": [
             {
