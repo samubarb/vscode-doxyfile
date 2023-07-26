@@ -37,12 +37,12 @@
                 "filenamePatterns": [
                     "Doxyfile.*"
                 ],
+                "firstLine": "\\s*#+\\s*Doxyfile.*",
                 "configuration": "./language-configuration.json",
                 "icon": {
                     "light": "./resources/doxygen_icon_light.svg",
                     "dark": "./resources/doxygen_icon_dark.svg"
-                },
-				"firstLine": "# Doxyfile"
+                }
             }
         ],
         "grammars": [
